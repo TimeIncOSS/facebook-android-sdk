@@ -80,7 +80,7 @@ public class Facebook {
     // Used as default activityCode by authorize(). See authorize() below.
     private static final int DEFAULT_AUTH_ACTIVITY_CODE = 32665;
 
-    // Facebook server endpoints: may be modified in a subclass for testing
+    // Facebook server endpoints: may be modified in a subclass for testingtapan
     @Deprecated
     protected static String DIALOG_BASE_URL = "https://m.facebook.com/dialog/";
     @Deprecated

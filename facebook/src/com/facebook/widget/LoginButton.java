@@ -506,7 +506,7 @@ public class LoginButton extends Button {
         }
     }
 
-    // For testing purposes only
+    // For testingtapan purposes only
     List<String> getPermissions() {
         return properties.getPermissions();
     }

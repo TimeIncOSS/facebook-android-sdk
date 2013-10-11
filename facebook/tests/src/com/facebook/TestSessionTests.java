@@ -71,7 +71,7 @@ public class TestSessionTests extends FacebookTestCase {
 
         // Note that this test is somewhat brittle in that the count of test users could change for
         // external reasons while the test is running. For that reason it may not be appropriate for an
-        // automated test suite, and could be run only when testing changes to TestSession.
+        // automated test suite, and could be run only when testingtapan changes to TestSession.
         int startingUserCount = countTestUsers();
 
         session = getTestSessionWithSharedUser();
