@@ -35,7 +35,7 @@ import java.util.*;
  * application. This should never be used from a real application, but may be useful
  * for writing unit tests, etc.
  * <p/>
- * Facebook allows developers to create test accounts for testingtapan their applications'
+ * Facebook allows developers to create test accounts for testing their applications'
  * Facebook integration (see https://developers.facebook.com/docs/test_users/). This class
  * simplifies use of these accounts for writing unit tests. It is not designed for use in
  * production application code.
@@ -55,7 +55,7 @@ import java.util.*;
  * {@link #setTestApplicationId(String)} and {@link #setTestApplicationSecret(String)}.
  * <p/>
  * Note that the shared test user functionality depends on a naming convention for the test users.
- * It is important that any testingtapan of functionality which will mutate the permissions for a
+ * It is important that any testing of functionality which will mutate the permissions for a
  * test user NOT use a shared test user, or this scheme will break down. If a shared test user
  * seems to be in an invalid state, it can be deleted manually via the Web interface at
  * https://developers.facebook.com/apps/APP_ID/permissions?role=test+users.
